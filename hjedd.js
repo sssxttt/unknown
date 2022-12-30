@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         HJSQ
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  better use!
+// @author       You
+// @match        https://hjedd.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=bing.com
+// @require      https://code.jquery.com/jquery-3.6.3.min.js
+// @run-at       document-end
+// @grant        none
+// ==/UserScript==
+
 (function () {
     $('head').append($(`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">`));
     function getCookie(cname) {
